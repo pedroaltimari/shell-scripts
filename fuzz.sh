@@ -16,3 +16,4 @@ host $subd.$dominio
 #then printf("\ 033 [0; 31m");
 
 done < wl.txt
+
