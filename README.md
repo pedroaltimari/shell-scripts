@@ -1,3 +1,3 @@
 <h2> shell-projects </h2>
 <hr />
-<span> some scripts and programs using shell script </span>
+<span> some scripts and tools using shell script </span>
